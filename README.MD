@@ -191,4 +191,5 @@ docker run -v $(pwd)/output:/app/output YOUR_USERNAME/cocomo-analysis:latest
 
 #### Docker Hub Repository
 
-**Format:** `https://hub.docker.com/r/YOUR_USERNAME/cocomo-analysis`
+**Format:** `https://hub.docker.com/r/watdipak7/code-metrics-analyzer`
+
