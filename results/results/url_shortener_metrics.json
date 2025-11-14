@@ -1,0 +1,1004 @@
+{
+  "codebase": "/app/codebases/Python-URL-Shortener",
+  "sloc": {
+    "total_lines": 348,
+    "source_lines": 282,
+    "comment_lines": 25,
+    "blank_lines": 41,
+    "files_analyzed": 5
+  },
+  "cyclomatic": [
+    {
+      "file": "main.py",
+      "function_name": "initialize",
+      "complexity": 6,
+      "line_number": 13
+    },
+    {
+      "file": "main.py",
+      "function_name": "userOptions",
+      "complexity": 7,
+      "line_number": 44
+    },
+    {
+      "file": "misc.py",
+      "function_name": "check",
+      "complexity": 1,
+      "line_number": 7
+    },
+    {
+      "file": "misc.py",
+      "function_name": "validUrl",
+      "complexity": 1,
+      "line_number": 11
+    },
+    {
+      "file": "misc.py",
+      "function_name": "hashPassword",
+      "complexity": 1,
+      "line_number": 15
+    },
+    {
+      "file": "misc.py",
+      "function_name": "checkPassword",
+      "complexity": 1,
+      "line_number": 20
+    },
+    {
+      "file": "misc.py",
+      "function_name": "validate",
+      "complexity": 2,
+      "line_number": 24
+    },
+    {
+      "file": "misc.py",
+      "function_name": "validate",
+      "complexity": 2,
+      "line_number": 32
+    },
+    {
+      "file": "misc.py",
+      "function_name": "validate",
+      "complexity": 2,
+      "line_number": 40
+    },
+    {
+      "file": "authentication.py",
+      "function_name": "signUp",
+      "complexity": 4,
+      "line_number": 11
+    },
+    {
+      "file": "authentication.py",
+      "function_name": "logIn",
+      "complexity": 3,
+      "line_number": 39
+    },
+    {
+      "file": "url.py",
+      "function_name": "generate",
+      "complexity": 4,
+      "line_number": 16
+    },
+    {
+      "file": "url.py",
+      "function_name": "generateCustom",
+      "complexity": 4,
+      "line_number": 46
+    },
+    {
+      "file": "url.py",
+      "function_name": "viewUserURL",
+      "complexity": 9,
+      "line_number": 70
+    },
+    {
+      "file": "url.py",
+      "function_name": "useURL",
+      "complexity": 4,
+      "line_number": 107
+    },
+    {
+      "file": "url.py",
+      "function_name": "getAnalytics",
+      "complexity": 2,
+      "line_number": 129
+    },
+    {
+      "file": "url.py",
+      "function_name": "analytics",
+      "complexity": 3,
+      "line_number": 139
+    }
+  ],
+  "halstead": {
+    "dbconnection.py": {
+      "n1": 2,
+      "n2": 7,
+      "N1": 4,
+      "N2": 8,
+      "vocabulary": 9,
+      "length": 12,
+      "calculated_length": 21.651484454403228,
+      "volume": 38.039100017307746,
+      "difficulty": 1.1428571428571428,
+      "effort": 43.473257162637424,
+      "time": 2.4151809534798567,
+      "bugs": 0.012679700005769248
+    },
+    "main.py": {
+      "n1": 5,
+      "n2": 34,
+      "N1": 59,
+      "N2": 96,
+      "vocabulary": 39,
+      "length": 155,
+      "calculated_length": 184.58337707694835,
+      "volume": 819.2373439236485,
+      "difficulty": 7.058823529411765,
+      "effort": 5782.851839461049,
+      "time": 321.26954663672495,
+      "bugs": 0.27307911464121615
+    },
+    "misc.py": {
+      "n1": 7,
+      "n2": 35,
+      "N1": 46,
+      "N2": 63,
+      "vocabulary": 42,
+      "length": 109,
+      "calculated_length": 199.17639004747704,
+      "volume": 587.7625990828849,
+      "difficulty": 6.3,
+      "effort": 3702.9043742221747,
+      "time": 205.71690967900972,
+      "bugs": 0.19592086636096162
+    },
+    "authentication.py": {
+      "n1": 7,
+      "n2": 38,
+      "N1": 64,
+      "N2": 111,
+      "vocabulary": 45,
+      "length": 175,
+      "calculated_length": 219.07272996525947,
+      "volume": 961.0742918576931,
+      "difficulty": 10.223684210526315,
+      "effort": 9825.720062808256,
+      "time": 545.8733368226808,
+      "bugs": 0.3203580972858977
+    },
+    "url.py": {
+      "n1": 13,
+      "n2": 89,
+      "N1": 192,
+      "N2": 328,
+      "vocabulary": 102,
+      "length": 520,
+      "calculated_length": 624.4459916918437,
+      "volume": 3469.6611778251777,
+      "difficulty": 23.955056179775283,
+      "effort": 83115.92843958741,
+      "time": 4617.551579977078,
+      "bugs": 1.1565537259417258
+    }
+  },
+  "dataflow": [
+    {
+      "function_name": "initialize",
+      "variables_defined": [
+        "method"
+      ],
+      "variables_used": [
+        "authentication",
+        "method",
+        "initialize",
+        "url",
+        "email",
+        "print",
+        "db",
+        "result",
+        "name",
+        "mycursor",
+        "cs",
+        "userOptions",
+        "questionary"
+      ],
+      "live_variables": [
+        "authentication",
+        "initialize",
+        "url",
+        "email",
+        "print",
+        "db",
+        "result",
+        "name",
+        "mycursor",
+        "cs",
+        "userOptions",
+        "questionary"
+      ],
+      "def_use_chains": {
+        "method": [
+          25,
+          29,
+          36,
+          40
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "main.py"
+    },
+    {
+      "function_name": "userOptions",
+      "variables_defined": [
+        "task",
+        "name",
+        "email"
+      ],
+      "variables_used": [
+        "cs",
+        "url",
+        "initialize",
+        "colored",
+        "email",
+        "print",
+        "name",
+        "task",
+        "userOptions",
+        "questionary"
+      ],
+      "live_variables": [
+        "url",
+        "initialize",
+        "colored",
+        "print",
+        "cs",
+        "userOptions",
+        "questionary"
+      ],
+      "def_use_chains": {
+        "task": [
+          57,
+          61,
+          65,
+          69,
+          73,
+          77
+        ],
+        "email": [
+          58,
+          59,
+          62,
+          63,
+          67,
+          71,
+          74,
+          75
+        ],
+        "name": [
+          59,
+          63,
+          67,
+          71,
+          74,
+          75
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "main.py"
+    },
+    {
+      "function_name": "check",
+      "variables_defined": [
+        "pat",
+        "email"
+      ],
+      "variables_used": [
+        "bool",
+        "email",
+        "pat",
+        "re"
+      ],
+      "live_variables": [
+        "bool",
+        "re"
+      ],
+      "def_use_chains": {
+        "pat": [
+          9
+        ],
+        "email": [
+          9
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "misc.py"
+    },
+    {
+      "function_name": "validUrl",
+      "variables_defined": [
+        "url",
+        "pat"
+      ],
+      "variables_used": [
+        "url",
+        "bool",
+        "pat",
+        "re"
+      ],
+      "live_variables": [
+        "bool",
+        "re"
+      ],
+      "def_use_chains": {
+        "pat": [
+          13
+        ],
+        "url": [
+          13
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "misc.py"
+    },
+    {
+      "function_name": "hashPassword",
+      "variables_defined": [
+        "password",
+        "salt",
+        "hashed_password"
+      ],
+      "variables_used": [
+        "password",
+        "salt",
+        "bcrypt",
+        "hashed_password"
+      ],
+      "live_variables": [
+        "bcrypt"
+      ],
+      "def_use_chains": {
+        "password": [
+          17
+        ],
+        "salt": [
+          17
+        ],
+        "hashed_password": [
+          18
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "misc.py"
+    },
+    {
+      "function_name": "checkPassword",
+      "variables_defined": [
+        "password",
+        "hashedpw"
+      ],
+      "variables_used": [
+        "password",
+        "hashedpw",
+        "bcrypt"
+      ],
+      "live_variables": [
+        "bcrypt"
+      ],
+      "def_use_chains": {
+        "password": [
+          21
+        ],
+        "hashedpw": [
+          21
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "misc.py"
+    },
+    {
+      "function_name": "validate",
+      "variables_defined": [
+        "self",
+        "document"
+      ],
+      "variables_used": [
+        "ValidationError",
+        "len",
+        "document"
+      ],
+      "live_variables": [
+        "ValidationError",
+        "len"
+      ],
+      "def_use_chains": {
+        "document": [
+          25,
+          28
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "misc.py"
+    },
+    {
+      "function_name": "validate",
+      "variables_defined": [
+        "self",
+        "document"
+      ],
+      "variables_used": [
+        "ValidationError",
+        "len",
+        "document"
+      ],
+      "live_variables": [
+        "ValidationError",
+        "len"
+      ],
+      "def_use_chains": {
+        "document": [
+          33,
+          36
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "misc.py"
+    },
+    {
+      "function_name": "validate",
+      "variables_defined": [
+        "self",
+        "document"
+      ],
+      "variables_used": [
+        "ValidationError",
+        "len",
+        "document"
+      ],
+      "live_variables": [
+        "ValidationError",
+        "len"
+      ],
+      "def_use_chains": {
+        "document": [
+          41,
+          44
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "misc.py"
+    },
+    {
+      "function_name": "signUp",
+      "variables_defined": [
+        "sql",
+        "email",
+        "password",
+        "confirm",
+        "val",
+        "name",
+        "res",
+        "hashedpw"
+      ],
+      "variables_used": [
+        "misc",
+        "sql",
+        "colored",
+        "email",
+        "print",
+        "db",
+        "password",
+        "confirm",
+        "val",
+        "name",
+        "mycursor",
+        "res",
+        "hashedpw",
+        "len",
+        "questionary"
+      ],
+      "live_variables": [
+        "misc",
+        "colored",
+        "print",
+        "db",
+        "mycursor",
+        "len",
+        "questionary"
+      ],
+      "def_use_chains": {
+        "email": [
+          14,
+          18,
+          27
+        ],
+        "password": [
+          17,
+          25
+        ],
+        "confirm": [
+          17
+        ],
+        "res": [
+          21
+        ],
+        "name": [
+          27
+        ],
+        "hashedpw": [
+          27
+        ],
+        "sql": [
+          28
+        ],
+        "val": [
+          28
+        ]
+      },
+      "reaching_definitions": 8,
+      "file": "authentication.py"
+    },
+    {
+      "function_name": "logIn",
+      "variables_defined": [
+        "email",
+        "password",
+        "name",
+        "res",
+        "hashedpw"
+      ],
+      "variables_used": [
+        "misc",
+        "colored",
+        "email",
+        "print",
+        "password",
+        "name",
+        "mycursor",
+        "res",
+        "cs",
+        "hashedpw",
+        "len",
+        "questionary"
+      ],
+      "live_variables": [
+        "misc",
+        "colored",
+        "print",
+        "mycursor",
+        "cs",
+        "len",
+        "questionary"
+      ],
+      "def_use_chains": {
+        "email": [
+          42,
+          50,
+          53,
+          56
+        ],
+        "res": [
+          45,
+          46,
+          47
+        ],
+        "password": [
+          48
+        ],
+        "hashedpw": [
+          48
+        ],
+        "name": [
+          50,
+          53,
+          56
+        ]
+      },
+      "reaching_definitions": 5,
+      "file": "authentication.py"
+    },
+    {
+      "function_name": "generate",
+      "variables_defined": [
+        "short_alias",
+        "sql",
+        "short",
+        "characters",
+        "original",
+        "length",
+        "email",
+        "val",
+        "expirationDate",
+        "res"
+      ],
+      "variables_used": [
+        "length",
+        "email",
+        "val",
+        "len",
+        "range",
+        "short_alias",
+        "sql",
+        "string",
+        "print",
+        "mycursor",
+        "res",
+        "expirationDate",
+        "misc",
+        "short",
+        "original",
+        "characters",
+        "colored",
+        "db",
+        "random",
+        "questionary"
+      ],
+      "live_variables": [
+        "range",
+        "misc",
+        "string",
+        "colored",
+        "print",
+        "db",
+        "random",
+        "mycursor",
+        "len",
+        "questionary"
+      ],
+      "def_use_chains": {
+        "original": [
+          18,
+          35
+        ],
+        "expirationDate": [
+          20,
+          35
+        ],
+        "characters": [
+          24,
+          30
+        ],
+        "length": [
+          24,
+          30
+        ],
+        "short_alias": [
+          25,
+          31
+        ],
+        "short": [
+          26,
+          32,
+          35,
+          38
+        ],
+        "res": [
+          28
+        ],
+        "email": [
+          35
+        ],
+        "sql": [
+          36
+        ],
+        "val": [
+          36
+        ]
+      },
+      "reaching_definitions": 10,
+      "file": "url.py"
+    },
+    {
+      "function_name": "generateCustom",
+      "variables_defined": [
+        "sql",
+        "customString",
+        "short",
+        "original",
+        "email",
+        "val",
+        "expirationDate",
+        "res"
+      ],
+      "variables_used": [
+        "misc",
+        "sql",
+        "customString",
+        "short",
+        "original",
+        "colored",
+        "email",
+        "print",
+        "db",
+        "val",
+        "expirationDate",
+        "mycursor",
+        "res",
+        "len",
+        "questionary"
+      ],
+      "live_variables": [
+        "misc",
+        "colored",
+        "print",
+        "db",
+        "mycursor",
+        "len",
+        "questionary"
+      ],
+      "def_use_chains": {
+        "original": [
+          48,
+          60
+        ],
+        "expirationDate": [
+          50,
+          60
+        ],
+        "customString": [
+          53
+        ],
+        "short": [
+          54,
+          60,
+          63
+        ],
+        "res": [
+          56
+        ],
+        "email": [
+          60
+        ],
+        "sql": [
+          61
+        ],
+        "val": [
+          61
+        ]
+      },
+      "reaching_definitions": 8,
+      "file": "url.py"
+    },
+    {
+      "function_name": "viewUserURL",
+      "variables_defined": [
+        "sql",
+        "originalUrl",
+        "email",
+        "res",
+        "urls",
+        "validity",
+        "name",
+        "expirationDate",
+        "toDelete",
+        "currentDate",
+        "selected"
+      ],
+      "variables_used": [
+        "email",
+        "urls",
+        "len",
+        "range",
+        "sql",
+        "i",
+        "print",
+        "mycursor",
+        "expirationDate",
+        "res",
+        "cs",
+        "validity",
+        "name",
+        "selected",
+        "info",
+        "originalUrl",
+        "datetime",
+        "colored",
+        "db",
+        "toDelete",
+        "currentDate",
+        "questionary"
+      ],
+      "live_variables": [
+        "range",
+        "info",
+        "i",
+        "datetime",
+        "colored",
+        "print",
+        "db",
+        "mycursor",
+        "cs",
+        "len",
+        "questionary"
+      ],
+      "def_use_chains": {
+        "name": [
+          71
+        ],
+        "email": [
+          72
+        ],
+        "res": [
+          74,
+          76,
+          77,
+          80,
+          86
+        ],
+        "originalUrl": [
+          78,
+          79,
+          86
+        ],
+        "expirationDate": [
+          82,
+          82
+        ],
+        "currentDate": [
+          82
+        ],
+        "urls": [
+          86,
+          88
+        ],
+        "validity": [
+          86
+        ],
+        "selected": [
+          89
+        ],
+        "toDelete": [
+          90,
+          92,
+          93,
+          95
+        ],
+        "sql": [
+          96
+        ]
+      },
+      "reaching_definitions": 11,
+      "file": "url.py"
+    },
+    {
+      "function_name": "useURL",
+      "variables_defined": [
+        "sql",
+        "originalUrl",
+        "url",
+        "expirationDate",
+        "res",
+        "currentDate"
+      ],
+      "variables_used": [
+        "sql",
+        "originalUrl",
+        "url",
+        "datetime",
+        "webbrowser",
+        "colored",
+        "res",
+        "print",
+        "db",
+        "mycursor",
+        "expirationDate",
+        "currentDate",
+        "len",
+        "questionary"
+      ],
+      "live_variables": [
+        "webbrowser",
+        "datetime",
+        "colored",
+        "print",
+        "db",
+        "mycursor",
+        "len",
+        "questionary"
+      ],
+      "def_use_chains": {
+        "url": [
+          110,
+          119
+        ],
+        "res": [
+          112,
+          113,
+          115
+        ],
+        "expirationDate": [
+          116,
+          116
+        ],
+        "currentDate": [
+          116
+        ],
+        "sql": [
+          120
+        ],
+        "originalUrl": [
+          122
+        ]
+      },
+      "reaching_definitions": 6,
+      "file": "url.py"
+    },
+    {
+      "function_name": "getAnalytics",
+      "variables_defined": [
+        "clicks",
+        "res",
+        "url"
+      ],
+      "variables_used": [
+        "url",
+        "colored",
+        "print",
+        "mycursor",
+        "res",
+        "clicks",
+        "len"
+      ],
+      "live_variables": [
+        "mycursor",
+        "colored",
+        "len",
+        "print"
+      ],
+      "def_use_chains": {
+        "url": [
+          130
+        ],
+        "res": [
+          132,
+          133
+        ],
+        "clicks": [
+          134
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "url.py"
+    },
+    {
+      "function_name": "analytics",
+      "variables_defined": [
+        "clicks",
+        "url"
+      ],
+      "variables_used": [
+        "url",
+        "len",
+        "colored",
+        "print",
+        "getAnalytics",
+        "clicks",
+        "str",
+        "questionary"
+      ],
+      "live_variables": [
+        "colored",
+        "print",
+        "str",
+        "getAnalytics",
+        "len",
+        "questionary"
+      ],
+      "def_use_chains": {
+        "url": [
+          141,
+          142
+        ],
+        "clicks": [
+          143,
+          144,
+          146,
+          147
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "url.py"
+    }
+  ]
+}

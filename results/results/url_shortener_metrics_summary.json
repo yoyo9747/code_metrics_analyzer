@@ -1,0 +1,31 @@
+{
+  "codebase": "/app/codebases/Python-URL-Shortener",
+  "total_files": 5,
+  "sloc_summary": {
+    "total_lines": 348,
+    "source_lines": 282,
+    "comment_lines": 25,
+    "blank_lines": 41,
+    "files_analyzed": 5
+  },
+  "cyclomatic_summary": {
+    "total_functions": 17,
+    "average_complexity": 3.2941176470588234,
+    "max_complexity": 9,
+    "min_complexity": 1,
+    "high_complexity_functions": []
+  },
+  "halstead_summary": {
+    "total_files_analyzed": 5,
+    "average_volume": 1175.1549025413424,
+    "total_effort": 102470.87797324153,
+    "estimated_bugs": 1.9585915042355704,
+    "average_difficulty": 9.7360842125141
+  },
+  "dataflow_summary": {
+    "total_functions_analyzed": 17,
+    "total_variables_defined": 72,
+    "total_variables_used": 160,
+    "average_live_variables": 5.352941176470588
+  }
+}

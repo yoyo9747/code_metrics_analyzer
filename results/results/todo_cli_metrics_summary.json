@@ -1,0 +1,31 @@
+{
+  "codebase": "/app/codebases/todo-cli",
+  "total_files": 1,
+  "sloc_summary": {
+    "total_lines": 61,
+    "source_lines": 50,
+    "comment_lines": 0,
+    "blank_lines": 11,
+    "files_analyzed": 1
+  },
+  "cyclomatic_summary": {
+    "total_functions": 7,
+    "average_complexity": 2.857142857142857,
+    "max_complexity": 7,
+    "min_complexity": 1,
+    "high_complexity_functions": []
+  },
+  "halstead_summary": {
+    "total_files_analyzed": 1,
+    "average_volume": 1126.1827810363209,
+    "total_effort": 16329.650325026652,
+    "estimated_bugs": 0.37539426034544027,
+    "average_difficulty": 14.5
+  },
+  "dataflow_summary": {
+    "total_functions_analyzed": 7,
+    "total_variables_defined": 13,
+    "total_variables_used": 37,
+    "average_live_variables": 3.4285714285714284
+  }
+}

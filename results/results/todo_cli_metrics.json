@@ -1,0 +1,285 @@
+{
+  "codebase": "/app/codebases/todo-cli",
+  "sloc": {
+    "total_lines": 61,
+    "source_lines": 50,
+    "comment_lines": 0,
+    "blank_lines": 11,
+    "files_analyzed": 1
+  },
+  "cyclomatic": [
+    {
+      "file": "todo.py",
+      "function_name": "load_tasks",
+      "complexity": 3,
+      "line_number": 6
+    },
+    {
+      "file": "todo.py",
+      "function_name": "save_tasks",
+      "complexity": 2,
+      "line_number": 12
+    },
+    {
+      "file": "todo.py",
+      "function_name": "show_tasks",
+      "complexity": 3,
+      "line_number": 16
+    },
+    {
+      "file": "todo.py",
+      "function_name": "add_task",
+      "complexity": 1,
+      "line_number": 24
+    },
+    {
+      "file": "todo.py",
+      "function_name": "complete_task",
+      "complexity": 2,
+      "line_number": 27
+    },
+    {
+      "file": "todo.py",
+      "function_name": "delete_task",
+      "complexity": 2,
+      "line_number": 31
+    },
+    {
+      "file": "todo.py",
+      "function_name": "main",
+      "complexity": 7,
+      "line_number": 35
+    }
+  ],
+  "halstead": {
+    "todo.py": {
+      "n1": 13,
+      "n2": 52,
+      "N1": 71,
+      "N2": 116,
+      "vocabulary": 65,
+      "length": 187,
+      "calculated_length": 344.52858167917094,
+      "volume": 1126.1827810363209,
+      "difficulty": 14.5,
+      "effort": 16329.650325026652,
+      "time": 907.202795834814,
+      "bugs": 0.37539426034544027
+    }
+  },
+  "dataflow": [
+    {
+      "function_name": "load_tasks",
+      "variables_defined": [],
+      "variables_used": [
+        "open",
+        "json",
+        "os",
+        "FILE",
+        "f"
+      ],
+      "live_variables": [
+        "open",
+        "json",
+        "os",
+        "FILE",
+        "f"
+      ],
+      "def_use_chains": {},
+      "reaching_definitions": 0,
+      "file": "todo.py"
+    },
+    {
+      "function_name": "save_tasks",
+      "variables_defined": [
+        "tasks"
+      ],
+      "variables_used": [
+        "tasks",
+        "open",
+        "json",
+        "FILE",
+        "f"
+      ],
+      "live_variables": [
+        "FILE",
+        "open",
+        "f",
+        "json"
+      ],
+      "def_use_chains": {
+        "tasks": [
+          14
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "todo.py"
+    },
+    {
+      "function_name": "show_tasks",
+      "variables_defined": [
+        "tasks",
+        "status"
+      ],
+      "variables_used": [
+        "tasks",
+        "print",
+        "task",
+        "i",
+        "enumerate",
+        "status"
+      ],
+      "live_variables": [
+        "task",
+        "enumerate",
+        "i",
+        "print"
+      ],
+      "def_use_chains": {
+        "tasks": [
+          17,
+          20
+        ],
+        "status": [
+          22
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "todo.py"
+    },
+    {
+      "function_name": "add_task",
+      "variables_defined": [
+        "tasks",
+        "title"
+      ],
+      "variables_used": [
+        "tasks",
+        "title"
+      ],
+      "live_variables": [],
+      "def_use_chains": {
+        "tasks": [
+          25
+        ],
+        "title": [
+          25
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "todo.py"
+    },
+    {
+      "function_name": "complete_task",
+      "variables_defined": [
+        "tasks",
+        "index"
+      ],
+      "variables_used": [
+        "tasks",
+        "len",
+        "index"
+      ],
+      "live_variables": [
+        "len"
+      ],
+      "def_use_chains": {
+        "index": [
+          28
+        ],
+        "tasks": [
+          28
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "todo.py"
+    },
+    {
+      "function_name": "delete_task",
+      "variables_defined": [
+        "tasks",
+        "index"
+      ],
+      "variables_used": [
+        "tasks",
+        "len",
+        "index"
+      ],
+      "live_variables": [
+        "len"
+      ],
+      "def_use_chains": {
+        "index": [
+          32,
+          33
+        ],
+        "tasks": [
+          32,
+          33
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "todo.py"
+    },
+    {
+      "function_name": "main",
+      "variables_defined": [
+        "idx",
+        "tasks",
+        "choice",
+        "title"
+      ],
+      "variables_used": [
+        "idx",
+        "choice",
+        "tasks",
+        "input",
+        "print",
+        "title",
+        "add_task",
+        "save_tasks",
+        "show_tasks",
+        "complete_task",
+        "int",
+        "load_tasks",
+        "delete_task"
+      ],
+      "live_variables": [
+        "save_tasks",
+        "input",
+        "print",
+        "add_task",
+        "show_tasks",
+        "complete_task",
+        "int",
+        "load_tasks",
+        "delete_task"
+      ],
+      "def_use_chains": {
+        "choice": [
+          42,
+          44,
+          47,
+          50,
+          53
+        ],
+        "tasks": [
+          43,
+          46,
+          49,
+          52,
+          54
+        ],
+        "title": [
+          46
+        ],
+        "idx": [
+          49,
+          52
+        ]
+      },
+      "reaching_definitions": 4,
+      "file": "todo.py"
+    }
+  ]
+}

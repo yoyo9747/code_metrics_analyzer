@@ -1,0 +1,2911 @@
+{
+  "codebase": "/app/codebases/notejam",
+  "sloc": {
+    "total_lines": 1177,
+    "source_lines": 863,
+    "comment_lines": 94,
+    "blank_lines": 220,
+    "files_analyzed": 32
+  },
+  "cyclomatic": [
+    {
+      "file": "notejam/pads/models.py",
+      "function_name": "__unicode__",
+      "complexity": 1,
+      "line_number": 9
+    },
+    {
+      "file": "notejam/pads/views.py",
+      "function_name": "form_valid",
+      "complexity": 1,
+      "line_number": 21
+    },
+    {
+      "file": "notejam/pads/views.py",
+      "function_name": "get_success_url",
+      "complexity": 1,
+      "line_number": 28
+    },
+    {
+      "file": "notejam/pads/views.py",
+      "function_name": "form_valid",
+      "complexity": 1,
+      "line_number": 39
+    },
+    {
+      "file": "notejam/pads/views.py",
+      "function_name": "get_queryset",
+      "complexity": 1,
+      "line_number": 43
+    },
+    {
+      "file": "notejam/pads/views.py",
+      "function_name": "get_success_url",
+      "complexity": 1,
+      "line_number": 47
+    },
+    {
+      "file": "notejam/pads/views.py",
+      "function_name": "get_queryset",
+      "complexity": 1,
+      "line_number": 58
+    },
+    {
+      "file": "notejam/pads/views.py",
+      "function_name": "get_pad",
+      "complexity": 1,
+      "line_number": 62
+    },
+    {
+      "file": "notejam/pads/views.py",
+      "function_name": "get_context_data",
+      "complexity": 1,
+      "line_number": 67
+    },
+    {
+      "file": "notejam/pads/views.py",
+      "function_name": "get_queryset",
+      "complexity": 1,
+      "line_number": 77
+    },
+    {
+      "file": "notejam/pads/templatetags/pad_tags.py",
+      "function_name": "do_get_pads",
+      "complexity": 3,
+      "line_number": 8
+    },
+    {
+      "file": "notejam/pads/templatetags/pad_tags.py",
+      "function_name": "__init__",
+      "complexity": 1,
+      "line_number": 24
+    },
+    {
+      "file": "notejam/pads/templatetags/pad_tags.py",
+      "function_name": "render",
+      "complexity": 1,
+      "line_number": 27
+    },
+    {
+      "file": "notejam/pads/migrations/0001_initial.py",
+      "function_name": "forwards",
+      "complexity": 1,
+      "line_number": 10
+    },
+    {
+      "file": "notejam/pads/migrations/0001_initial.py",
+      "function_name": "backwards",
+      "complexity": 1,
+      "line_number": 20
+    },
+    {
+      "file": "notejam/_tests_backup/notes_tests.py",
+      "function_name": "setUp",
+      "complexity": 1,
+      "line_number": 9
+    },
+    {
+      "file": "notejam/_tests_backup/notes_tests.py",
+      "function_name": "test_create_success",
+      "complexity": 1,
+      "line_number": 17
+    },
+    {
+      "file": "notejam/_tests_backup/notes_tests.py",
+      "function_name": "test_create_fail_required_fields",
+      "complexity": 1,
+      "line_number": 22
+    },
+    {
+      "file": "notejam/_tests_backup/notes_tests.py",
+      "function_name": "test_edit_success",
+      "complexity": 1,
+      "line_number": 27
+    },
+    {
+      "file": "notejam/_tests_backup/notes_tests.py",
+      "function_name": "test_another_user_cant_edit",
+      "complexity": 1,
+      "line_number": 40
+    },
+    {
+      "file": "notejam/_tests_backup/notes_tests.py",
+      "function_name": "test_view_success",
+      "complexity": 1,
+      "line_number": 58
+    },
+    {
+      "file": "notejam/_tests_backup/notes_tests.py",
+      "function_name": "test_another_user_cant_view",
+      "complexity": 1,
+      "line_number": 67
+    },
+    {
+      "file": "notejam/_tests_backup/notes_tests.py",
+      "function_name": "test_delete_success",
+      "complexity": 1,
+      "line_number": 85
+    },
+    {
+      "file": "notejam/_tests_backup/notes_tests.py",
+      "function_name": "test_another_user_cant_delete",
+      "complexity": 1,
+      "line_number": 94
+    },
+    {
+      "file": "notejam/_tests_backup/pads_tests.py",
+      "function_name": "setUp",
+      "complexity": 1,
+      "line_number": 9
+    },
+    {
+      "file": "notejam/_tests_backup/pads_tests.py",
+      "function_name": "_create_pads",
+      "complexity": 1,
+      "line_number": 17
+    },
+    {
+      "file": "notejam/_tests_backup/pads_tests.py",
+      "function_name": "test_create_success",
+      "complexity": 1,
+      "line_number": 23
+    },
+    {
+      "file": "notejam/_tests_backup/pads_tests.py",
+      "function_name": "test_create_fail_required_name",
+      "complexity": 1,
+      "line_number": 27
+    },
+    {
+      "file": "notejam/_tests_backup/pads_tests.py",
+      "function_name": "test_edit_success",
+      "complexity": 1,
+      "line_number": 31
+    },
+    {
+      "file": "notejam/_tests_backup/pads_tests.py",
+      "function_name": "test_another_user_cant_edit_pad",
+      "complexity": 1,
+      "line_number": 38
+    },
+    {
+      "file": "notejam/_tests_backup/notejam_tests.py",
+      "function_name": "__init__",
+      "complexity": 1,
+      "line_number": 12
+    },
+    {
+      "file": "notejam/_tests_backup/notejam_tests.py",
+      "function_name": "build_suite",
+      "complexity": 5,
+      "line_number": 18
+    },
+    {
+      "file": "notejam/_tests_backup/notejam_tests.py",
+      "function_name": "create_user",
+      "complexity": 1,
+      "line_number": 32
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "_get_user_data",
+      "complexity": 1,
+      "line_number": 7
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "test_signup_success",
+      "complexity": 1,
+      "line_number": 16
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "test_signup_fail_required_fields",
+      "complexity": 1,
+      "line_number": 22
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "test_signup_fail_invalid_email",
+      "complexity": 1,
+      "line_number": 29
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "test_signup_fail_passwords_dont_match",
+      "complexity": 1,
+      "line_number": 34
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "test_signup_fail_email_exists",
+      "complexity": 1,
+      "line_number": 39
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "_get_user_data",
+      "complexity": 1,
+      "line_number": 52
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "test_signin_success",
+      "complexity": 1,
+      "line_number": 60
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "test_signin_fail",
+      "complexity": 1,
+      "line_number": 69
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "test_signin_fail_required_fields",
+      "complexity": 1,
+      "line_number": 73
+    },
+    {
+      "file": "notejam/_tests_backup/users_tests.py",
+      "function_name": "test_signin_fail_invalid_email",
+      "complexity": 1,
+      "line_number": 80
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_initial",
+      "complexity": 1,
+      "line_number": 19
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_form",
+      "complexity": 1,
+      "line_number": 22
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "form_valid",
+      "complexity": 1,
+      "line_number": 30
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_success_url",
+      "complexity": 2,
+      "line_number": 37
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "form_valid",
+      "complexity": 1,
+      "line_number": 53
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_queryset",
+      "complexity": 1,
+      "line_number": 57
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_form",
+      "complexity": 1,
+      "line_number": 61
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_success_url",
+      "complexity": 2,
+      "line_number": 69
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_queryset",
+      "complexity": 1,
+      "line_number": 81
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_success_url",
+      "complexity": 2,
+      "line_number": 85
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_queryset",
+      "complexity": 1,
+      "line_number": 97
+    },
+    {
+      "file": "notejam/notes/views.py",
+      "function_name": "get_queryset",
+      "complexity": 1,
+      "line_number": 107
+    },
+    {
+      "file": "notejam/notes/templatetags/date_tags.py",
+      "function_name": "smart_date",
+      "complexity": 4,
+      "line_number": 8
+    },
+    {
+      "file": "notejam/notes/migrations/0001_initial.py",
+      "function_name": "forwards",
+      "complexity": 1,
+      "line_number": 10
+    },
+    {
+      "file": "notejam/notes/migrations/0001_initial.py",
+      "function_name": "backwards",
+      "complexity": 1,
+      "line_number": 24
+    },
+    {
+      "file": "notejam/users/auth_backends.py",
+      "function_name": "authenticate",
+      "complexity": 3,
+      "line_number": 6
+    },
+    {
+      "file": "notejam/users/auth_backends.py",
+      "function_name": "get_user",
+      "complexity": 2,
+      "line_number": 14
+    },
+    {
+      "file": "notejam/users/views.py",
+      "function_name": "form_valid",
+      "complexity": 1,
+      "line_number": 25
+    },
+    {
+      "file": "notejam/users/views.py",
+      "function_name": "post",
+      "complexity": 3,
+      "line_number": 36
+    },
+    {
+      "file": "notejam/users/views.py",
+      "function_name": "form_valid",
+      "complexity": 1,
+      "line_number": 63
+    },
+    {
+      "file": "notejam/users/views.py",
+      "function_name": "get_form_kwargs",
+      "complexity": 1,
+      "line_number": 99
+    },
+    {
+      "file": "notejam/users/views.py",
+      "function_name": "form_valid",
+      "complexity": 1,
+      "line_number": 104
+    },
+    {
+      "file": "notejam/users/forms.py",
+      "function_name": "save",
+      "complexity": 2,
+      "line_number": 14
+    },
+    {
+      "file": "notejam/users/forms.py",
+      "function_name": "clean_email",
+      "complexity": 2,
+      "line_number": 24
+    },
+    {
+      "file": "notejam/users/forms.py",
+      "function_name": "clean_repeat_password",
+      "complexity": 2,
+      "line_number": 34
+    },
+    {
+      "file": "notejam/users/forms.py",
+      "function_name": "clean_email",
+      "complexity": 2,
+      "line_number": 50
+    }
+  ],
+  "halstead": {
+    "notejam/manage.py": {
+      "n1": 3,
+      "n2": 7,
+      "N1": 4,
+      "N2": 7,
+      "vocabulary": 10,
+      "length": 11,
+      "calculated_length": 24.406371956566694,
+      "volume": 36.541209043760986,
+      "difficulty": 1.5,
+      "effort": 54.81181356564148,
+      "time": 3.0451007536467487,
+      "bugs": 0.012180403014586996
+    },
+    "notejam/pads/models.py": {
+      "n1": 5,
+      "n2": 8,
+      "N1": 7,
+      "N2": 10,
+      "vocabulary": 13,
+      "length": 17,
+      "calculated_length": 35.60964047443681,
+      "volume": 62.907475208398566,
+      "difficulty": 3.125,
+      "effort": 196.5858600262455,
+      "time": 10.92143666812475,
+      "bugs": 0.02096915840279952
+    },
+    "notejam/pads/views.py": {
+      "n1": 5,
+      "n2": 48,
+      "N1": 74,
+      "N2": 111,
+      "vocabulary": 53,
+      "length": 185,
+      "calculated_length": 279.6878405090523,
+      "volume": 1059.6652840941917,
+      "difficulty": 5.78125,
+      "effort": 6126.189923669546,
+      "time": 340.3438846483081,
+      "bugs": 0.3532217613647306
+    },
+    "notejam/pads/forms.py": {
+      "n1": 2,
+      "n2": 7,
+      "N1": 4,
+      "N2": 7,
+      "vocabulary": 9,
+      "length": 11,
+      "calculated_length": 21.651484454403228,
+      "volume": 34.86917501586544,
+      "difficulty": 1.0,
+      "effort": 34.86917501586544,
+      "time": 1.937176389770302,
+      "bugs": 0.011623058338621813
+    },
+    "notejam/pads/urls.py": {
+      "n1": 2,
+      "n2": 17,
+      "N1": 14,
+      "N2": 23,
+      "vocabulary": 19,
+      "length": 37,
+      "calculated_length": 71.48686830125577,
+      "volume": 157.17331799741265,
+      "difficulty": 1.3529411764705883,
+      "effort": 212.64625376120537,
+      "time": 11.81368076451141,
+      "bugs": 0.05239110599913755
+    },
+    "notejam/pads/templatetags/pad_tags.py": {
+      "n1": 8,
+      "n2": 21,
+      "N1": 22,
+      "N2": 34,
+      "vocabulary": 29,
+      "length": 56,
+      "calculated_length": 116.23866587835397,
+      "volume": 272.04693572714405,
+      "difficulty": 6.476190476190476,
+      "effort": 1761.8277742329328,
+      "time": 97.8793207907185,
+      "bugs": 0.09068231190904802
+    },
+    "notejam/pads/migrations/0001_initial.py": {
+      "n1": 4,
+      "n2": 79,
+      "N1": 14,
+      "N2": 187,
+      "vocabulary": 83,
+      "length": 201,
+      "calculated_length": 505.99867910599113,
+      "volume": 1281.382925700732,
+      "difficulty": 4.734177215189874,
+      "effort": 6066.293850785744,
+      "time": 337.01632504365244,
+      "bugs": 0.427127641900244
+    },
+    "notejam/_tests_backup/notes_tests.py": {
+      "n1": 4,
+      "n2": 44,
+      "N1": 86,
+      "N2": 187,
+      "vocabulary": 48,
+      "length": 273,
+      "calculated_length": 248.21499122004107,
+      "volume": 1524.6947626968756,
+      "difficulty": 8.5,
+      "effort": 12959.905482923443,
+      "time": 719.9947490513024,
+      "bugs": 0.5082315875656253
+    },
+    "notejam/_tests_backup/pads_tests.py": {
+      "n1": 5,
+      "n2": 35,
+      "N1": 43,
+      "N2": 86,
+      "vocabulary": 40,
+      "length": 129,
+      "calculated_length": 191.13454606751063,
+      "volume": 686.5287242404697,
+      "difficulty": 6.142857142857143,
+      "effort": 4217.247877477172,
+      "time": 234.29154874873177,
+      "bugs": 0.2288429080801566
+    },
+    "notejam/_tests_backup/notejam_tests.py": {
+      "n1": 10,
+      "n2": 27,
+      "N1": 31,
+      "N2": 52,
+      "vocabulary": 37,
+      "length": 83,
+      "calculated_length": 161.60124350728728,
+      "volume": 432.38462934720286,
+      "difficulty": 9.62962962962963,
+      "effort": 4163.70383815825,
+      "time": 231.31687989768054,
+      "bugs": 0.14412820978240096
+    },
+    "notejam/_tests_backup/users_tests.py": {
+      "n1": 5,
+      "n2": 35,
+      "N1": 83,
+      "N2": 144,
+      "vocabulary": 40,
+      "length": 227,
+      "calculated_length": 191.13454606751063,
+      "volume": 1208.0776775394313,
+      "difficulty": 10.285714285714285,
+      "effort": 12425.941826119864,
+      "time": 690.3301014511036,
+      "bugs": 0.40269255917981045
+    },
+    "notejam/notes/models.py": {
+      "n1": 3,
+      "n2": 12,
+      "N1": 13,
+      "N2": 21,
+      "vocabulary": 15,
+      "length": 34,
+      "calculated_length": 47.77443751081734,
+      "volume": 132.83428025068963,
+      "difficulty": 2.625,
+      "effort": 348.68998565806027,
+      "time": 19.371665869892237,
+      "bugs": 0.04427809341689654
+    },
+    "notejam/notes/views.py": {
+      "n1": 7,
+      "n2": 45,
+      "N1": 101,
+      "N2": 146,
+      "vocabulary": 52,
+      "length": 247,
+      "calculated_length": 266.7848737892386,
+      "volume": 1408.0086103808496,
+      "difficulty": 11.355555555555556,
+      "effort": 15988.719997880315,
+      "time": 888.2622221044619,
+      "bugs": 0.4693362034602832
+    },
+    "notejam/notes/forms.py": {
+      "n1": 2,
+      "n2": 9,
+      "N1": 4,
+      "N2": 9,
+      "vocabulary": 11,
+      "length": 13,
+      "calculated_length": 30.52932501298081,
+      "volume": 44.97261104228487,
+      "difficulty": 1.0,
+      "effort": 44.97261104228487,
+      "time": 2.498478391238048,
+      "bugs": 0.01499087034742829
+    },
+    "notejam/notes/urls.py": {
+      "n1": 2,
+      "n2": 17,
+      "N1": 14,
+      "N2": 23,
+      "vocabulary": 19,
+      "length": 37,
+      "calculated_length": 71.48686830125577,
+      "volume": 157.17331799741265,
+      "difficulty": 1.3529411764705883,
+      "effort": 212.64625376120537,
+      "time": 11.81368076451141,
+      "bugs": 0.05239110599913755
+    },
+    "notejam/notes/templatetags/date_tags.py": {
+      "n1": 8,
+      "n2": 14,
+      "N1": 25,
+      "N2": 24,
+      "vocabulary": 22,
+      "length": 49,
+      "calculated_length": 77.30296890880646,
+      "volume": 218.51214931322758,
+      "difficulty": 6.857142857142857,
+      "effort": 1498.3690238621318,
+      "time": 83.24272354789622,
+      "bugs": 0.0728373831044092
+    },
+    "notejam/notes/migrations/0001_initial.py": {
+      "n1": 4,
+      "n2": 91,
+      "N1": 22,
+      "N2": 242,
+      "vocabulary": 95,
+      "length": 264,
+      "calculated_length": 600.2093122580814,
+      "volume": 1734.4418805993703,
+      "difficulty": 5.318681318681318,
+      "effort": 9224.943628682364,
+      "time": 512.4968682601314,
+      "bugs": 0.5781472935331234
+    },
+    "notejam/users/auth_backends.py": {
+      "n1": 6,
+      "n2": 11,
+      "N1": 12,
+      "N2": 19,
+      "vocabulary": 17,
+      "length": 31,
+      "calculated_length": 53.5635228093372,
+      "volume": 126.71134807876051,
+      "difficulty": 5.181818181818182,
+      "effort": 656.5951673172135,
+      "time": 36.47750929540075,
+      "bugs": 0.042237116026253504
+    },
+    "notejam/users/views.py": {
+      "n1": 7,
+      "n2": 57,
+      "N1": 81,
+      "N2": 138,
+      "vocabulary": 64,
+      "length": 219,
+      "calculated_length": 352.12621526179345,
+      "volume": 1314.0,
+      "difficulty": 8.473684210526315,
+      "effort": 11134.421052631578,
+      "time": 618.578947368421,
+      "bugs": 0.438
+    },
+    "notejam/users/forms.py": {
+      "n1": 7,
+      "n2": 23,
+      "N1": 52,
+      "N2": 73,
+      "vocabulary": 30,
+      "length": 125,
+      "calculated_length": 123.69340944371453,
+      "volume": 613.3613244510649,
+      "difficulty": 11.108695652173912,
+      "effort": 6813.644278141177,
+      "time": 378.5357932300654,
+      "bugs": 0.20445377481702162
+    },
+    "notejam/notejam/settings.py": {
+      "n1": 2,
+      "n2": 114,
+      "N1": 42,
+      "N2": 140,
+      "vocabulary": 116,
+      "length": 182,
+      "calculated_length": 780.9494616147805,
+      "volume": 1248.1525411132181,
+      "difficulty": 1.2280701754385965,
+      "effort": 1532.8189101390399,
+      "time": 85.15660611883555,
+      "bugs": 0.41605084703773937
+    },
+    "notejam/notejam/urls.py": {
+      "n1": 2,
+      "n2": 30,
+      "N1": 19,
+      "N2": 39,
+      "vocabulary": 32,
+      "length": 58,
+      "calculated_length": 149.20671786825557,
+      "volume": 290.0,
+      "difficulty": 1.3,
+      "effort": 377.0,
+      "time": 20.944444444444443,
+      "bugs": 0.09666666666666666
+    },
+    "notejam/notejam/wsgi.py": {
+      "n1": 2,
+      "n2": 6,
+      "N1": 3,
+      "N2": 6,
+      "vocabulary": 8,
+      "length": 9,
+      "calculated_length": 17.509775004326936,
+      "volume": 27.0,
+      "difficulty": 1.0,
+      "effort": 27.0,
+      "time": 1.5,
+      "bugs": 0.009
+    }
+  },
+  "dataflow": [
+    {
+      "function_name": "__unicode__",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "self"
+      ],
+      "live_variables": [],
+      "def_use_chains": {
+        "self": [
+          10
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/pads/models.py"
+    },
+    {
+      "function_name": "form_valid",
+      "variables_defined": [
+        "self",
+        "form"
+      ],
+      "variables_used": [
+        "self",
+        "messages",
+        "form",
+        "redirect"
+      ],
+      "live_variables": [
+        "messages",
+        "redirect"
+      ],
+      "def_use_chains": {
+        "form": [
+          22
+        ],
+        "self": [
+          23,
+          24,
+          25,
+          25,
+          26
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/views.py"
+    },
+    {
+      "function_name": "get_success_url",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "self",
+        "reverse_lazy"
+      ],
+      "live_variables": [
+        "reverse_lazy"
+      ],
+      "def_use_chains": {
+        "self": [
+          29
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/pads/views.py"
+    },
+    {
+      "function_name": "form_valid",
+      "variables_defined": [
+        "self",
+        "form"
+      ],
+      "variables_used": [
+        "self",
+        "messages",
+        "PadUpdateView",
+        "form",
+        "super"
+      ],
+      "live_variables": [
+        "super",
+        "PadUpdateView",
+        "messages"
+      ],
+      "def_use_chains": {
+        "self": [
+          40,
+          40,
+          41
+        ],
+        "form": [
+          41
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/views.py"
+    },
+    {
+      "function_name": "get_queryset",
+      "variables_defined": [
+        "self",
+        "qs"
+      ],
+      "variables_used": [
+        "super",
+        "PadUpdateView",
+        "self",
+        "qs"
+      ],
+      "live_variables": [
+        "super",
+        "PadUpdateView"
+      ],
+      "def_use_chains": {
+        "self": [
+          44,
+          45
+        ],
+        "qs": [
+          45
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/views.py"
+    },
+    {
+      "function_name": "get_success_url",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "self",
+        "reverse_lazy"
+      ],
+      "live_variables": [
+        "reverse_lazy"
+      ],
+      "def_use_chains": {
+        "self": [
+          48
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/pads/views.py"
+    },
+    {
+      "function_name": "get_queryset",
+      "variables_defined": [
+        "order_by",
+        "self"
+      ],
+      "variables_used": [
+        "order_by",
+        "self"
+      ],
+      "live_variables": [],
+      "def_use_chains": {
+        "self": [
+          59,
+          59,
+          60
+        ],
+        "order_by": [
+          60
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/views.py"
+    },
+    {
+      "function_name": "get_pad",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "self",
+        "Pad",
+        "get_object_or_404",
+        "int"
+      ],
+      "live_variables": [
+        "Pad",
+        "get_object_or_404",
+        "int"
+      ],
+      "def_use_chains": {
+        "self": [
+          64,
+          64
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/pads/views.py"
+    },
+    {
+      "function_name": "get_context_data",
+      "variables_defined": [
+        "context",
+        "self"
+      ],
+      "variables_used": [
+        "PadNotesListView",
+        "self",
+        "context",
+        "super",
+        "kwargs"
+      ],
+      "live_variables": [
+        "super",
+        "PadNotesListView",
+        "kwargs"
+      ],
+      "def_use_chains": {
+        "self": [
+          68,
+          69
+        ],
+        "context": [
+          70
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/views.py"
+    },
+    {
+      "function_name": "get_queryset",
+      "variables_defined": [
+        "self",
+        "qs"
+      ],
+      "variables_used": [
+        "super",
+        "PadDeleteView",
+        "self",
+        "qs"
+      ],
+      "live_variables": [
+        "super",
+        "PadDeleteView"
+      ],
+      "def_use_chains": {
+        "self": [
+          78,
+          79
+        ],
+        "qs": [
+          79
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/views.py"
+    },
+    {
+      "function_name": "do_get_pads",
+      "variables_defined": [
+        "parser",
+        "token"
+      ],
+      "variables_used": [
+        "ValueError",
+        "GetPadsNode",
+        "tag_name",
+        "token",
+        "as_",
+        "var_name",
+        "template"
+      ],
+      "live_variables": [
+        "ValueError",
+        "GetPadsNode",
+        "tag_name",
+        "as_",
+        "var_name",
+        "template"
+      ],
+      "def_use_chains": {
+        "token": [
+          10,
+          14
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/templatetags/pad_tags.py"
+    },
+    {
+      "function_name": "__init__",
+      "variables_defined": [
+        "var_name",
+        "self"
+      ],
+      "variables_used": [
+        "var_name"
+      ],
+      "live_variables": [],
+      "def_use_chains": {
+        "var_name": [
+          25
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/templatetags/pad_tags.py"
+    },
+    {
+      "function_name": "render",
+      "variables_defined": [
+        "context",
+        "self"
+      ],
+      "variables_used": [
+        "context",
+        "Pad"
+      ],
+      "live_variables": [
+        "Pad"
+      ],
+      "def_use_chains": {
+        "context": [
+          28
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/templatetags/pad_tags.py"
+    },
+    {
+      "function_name": "forwards",
+      "variables_defined": [
+        "orm",
+        "self"
+      ],
+      "variables_used": [
+        "db",
+        "self",
+        "orm"
+      ],
+      "live_variables": [
+        "db"
+      ],
+      "def_use_chains": {
+        "self": [
+          13,
+          14,
+          15
+        ],
+        "orm": [
+          15
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/pads/migrations/0001_initial.py"
+    },
+    {
+      "function_name": "backwards",
+      "variables_defined": [
+        "orm",
+        "self"
+      ],
+      "variables_used": [
+        "db"
+      ],
+      "live_variables": [
+        "db"
+      ],
+      "def_use_chains": {},
+      "reaching_definitions": 2,
+      "file": "notejam/pads/migrations/0001_initial.py"
+    },
+    {
+      "function_name": "setUp",
+      "variables_defined": [
+        "user_data",
+        "self"
+      ],
+      "variables_used": [
+        "user_data",
+        "create_user",
+        "self"
+      ],
+      "live_variables": [
+        "create_user"
+      ],
+      "def_use_chains": {
+        "user_data": [
+          14,
+          15
+        ],
+        "self": [
+          15
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/notes_tests.py"
+    },
+    {
+      "function_name": "test_create_success",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "reverse",
+        "self",
+        "Note"
+      ],
+      "live_variables": [
+        "reverse",
+        "Note"
+      ],
+      "def_use_chains": {
+        "self": [
+          18,
+          20
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/_tests_backup/notes_tests.py"
+    },
+    {
+      "function_name": "test_create_fail_required_fields",
+      "variables_defined": [
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "set",
+        "reverse",
+        "self",
+        "response"
+      ],
+      "live_variables": [
+        "set",
+        "reverse"
+      ],
+      "def_use_chains": {
+        "self": [
+          23,
+          24
+        ],
+        "response": [
+          25
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/notes_tests.py"
+    },
+    {
+      "function_name": "test_edit_success",
+      "variables_defined": [
+        "self",
+        "response",
+        "note",
+        "note_data"
+      ],
+      "variables_used": [
+        "self",
+        "response",
+        "Note",
+        "note_data",
+        "reverse",
+        "note"
+      ],
+      "live_variables": [
+        "reverse",
+        "Note"
+      ],
+      "def_use_chains": {
+        "self": [
+          32,
+          35,
+          37,
+          38
+        ],
+        "note_data": [
+          32,
+          36,
+          38
+        ],
+        "note": [
+          36,
+          38
+        ],
+        "response": [
+          37
+        ]
+      },
+      "reaching_definitions": 4,
+      "file": "notejam/_tests_backup/notes_tests.py"
+    },
+    {
+      "function_name": "test_another_user_cant_edit",
+      "variables_defined": [
+        "self",
+        "user_data",
+        "response",
+        "note_data",
+        "client",
+        "note"
+      ],
+      "variables_used": [
+        "self",
+        "Client",
+        "response",
+        "note_data",
+        "Note",
+        "note",
+        "client",
+        "reverse",
+        "create_user",
+        "user_data"
+      ],
+      "live_variables": [
+        "reverse",
+        "create_user",
+        "Client",
+        "Note"
+      ],
+      "def_use_chains": {
+        "user_data": [
+          45,
+          54
+        ],
+        "self": [
+          51,
+          56
+        ],
+        "note_data": [
+          51
+        ],
+        "client": [
+          54,
+          55
+        ],
+        "note": [
+          55
+        ],
+        "response": [
+          56
+        ]
+      },
+      "reaching_definitions": 6,
+      "file": "notejam/_tests_backup/notes_tests.py"
+    },
+    {
+      "function_name": "test_view_success",
+      "variables_defined": [
+        "self",
+        "response",
+        "note",
+        "note_data"
+      ],
+      "variables_used": [
+        "self",
+        "response",
+        "Note",
+        "note_data",
+        "reverse",
+        "note"
+      ],
+      "live_variables": [
+        "reverse",
+        "Note"
+      ],
+      "def_use_chains": {
+        "self": [
+          63,
+          64,
+          65
+        ],
+        "note_data": [
+          63
+        ],
+        "note": [
+          64,
+          65
+        ],
+        "response": [
+          65
+        ]
+      },
+      "reaching_definitions": 4,
+      "file": "notejam/_tests_backup/notes_tests.py"
+    },
+    {
+      "function_name": "test_another_user_cant_view",
+      "variables_defined": [
+        "self",
+        "user_data",
+        "response",
+        "note_data",
+        "client",
+        "note"
+      ],
+      "variables_used": [
+        "self",
+        "Client",
+        "response",
+        "note_data",
+        "Note",
+        "note",
+        "client",
+        "reverse",
+        "create_user",
+        "user_data"
+      ],
+      "live_variables": [
+        "reverse",
+        "create_user",
+        "Client",
+        "Note"
+      ],
+      "def_use_chains": {
+        "user_data": [
+          72,
+          81
+        ],
+        "self": [
+          78,
+          83
+        ],
+        "note_data": [
+          78
+        ],
+        "client": [
+          81,
+          82
+        ],
+        "note": [
+          82
+        ],
+        "response": [
+          83
+        ]
+      },
+      "reaching_definitions": 6,
+      "file": "notejam/_tests_backup/notes_tests.py"
+    },
+    {
+      "function_name": "test_delete_success",
+      "variables_defined": [
+        "self",
+        "note",
+        "note_data"
+      ],
+      "variables_used": [
+        "self",
+        "Note",
+        "note_data",
+        "reverse",
+        "note"
+      ],
+      "live_variables": [
+        "reverse",
+        "Note"
+      ],
+      "def_use_chains": {
+        "self": [
+          90,
+          91,
+          92
+        ],
+        "note_data": [
+          90
+        ],
+        "note": [
+          91
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "notejam/_tests_backup/notes_tests.py"
+    },
+    {
+      "function_name": "test_another_user_cant_delete",
+      "variables_defined": [
+        "self",
+        "user_data",
+        "response",
+        "note_data",
+        "client",
+        "note"
+      ],
+      "variables_used": [
+        "self",
+        "Client",
+        "response",
+        "note_data",
+        "Note",
+        "note",
+        "client",
+        "reverse",
+        "create_user",
+        "user_data"
+      ],
+      "live_variables": [
+        "reverse",
+        "create_user",
+        "Client",
+        "Note"
+      ],
+      "def_use_chains": {
+        "user_data": [
+          99,
+          108
+        ],
+        "self": [
+          105,
+          110
+        ],
+        "note_data": [
+          105
+        ],
+        "client": [
+          108,
+          109
+        ],
+        "note": [
+          109
+        ],
+        "response": [
+          110
+        ]
+      },
+      "reaching_definitions": 6,
+      "file": "notejam/_tests_backup/notes_tests.py"
+    },
+    {
+      "function_name": "setUp",
+      "variables_defined": [
+        "user_data",
+        "self"
+      ],
+      "variables_used": [
+        "user_data",
+        "create_user",
+        "self"
+      ],
+      "live_variables": [
+        "create_user"
+      ],
+      "def_use_chains": {
+        "user_data": [
+          14,
+          15
+        ],
+        "self": [
+          15
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/pads_tests.py"
+    },
+    {
+      "function_name": "_create_pads",
+      "variables_defined": [
+        "pads",
+        "self"
+      ],
+      "variables_used": [
+        "pads",
+        "self",
+        "Pad",
+        "pad"
+      ],
+      "live_variables": [
+        "Pad",
+        "pad"
+      ],
+      "def_use_chains": {
+        "self": [
+          19
+        ],
+        "pads": [
+          20
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/pads_tests.py"
+    },
+    {
+      "function_name": "test_create_success",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "reverse",
+        "self",
+        "Pad"
+      ],
+      "live_variables": [
+        "reverse",
+        "Pad"
+      ],
+      "def_use_chains": {
+        "self": [
+          24,
+          25
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/_tests_backup/pads_tests.py"
+    },
+    {
+      "function_name": "test_create_fail_required_name",
+      "variables_defined": [
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "reverse",
+        "self",
+        "response"
+      ],
+      "live_variables": [
+        "reverse"
+      ],
+      "def_use_chains": {
+        "self": [
+          28,
+          29
+        ],
+        "response": [
+          29
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/pads_tests.py"
+    },
+    {
+      "function_name": "test_edit_success",
+      "variables_defined": [
+        "data",
+        "response",
+        "id",
+        "self"
+      ],
+      "variables_used": [
+        "self",
+        "data",
+        "response",
+        "id",
+        "reverse",
+        "Pad"
+      ],
+      "live_variables": [
+        "reverse",
+        "Pad"
+      ],
+      "def_use_chains": {
+        "self": [
+          32,
+          34,
+          35,
+          36
+        ],
+        "id": [
+          34,
+          35,
+          36
+        ],
+        "data": [
+          34,
+          36
+        ],
+        "response": [
+          35
+        ]
+      },
+      "reaching_definitions": 4,
+      "file": "notejam/_tests_backup/pads_tests.py"
+    },
+    {
+      "function_name": "test_another_user_cant_edit_pad",
+      "variables_defined": [
+        "self",
+        "response",
+        "id",
+        "client",
+        "user_data"
+      ],
+      "variables_used": [
+        "self",
+        "Client",
+        "response",
+        "id",
+        "client",
+        "reverse",
+        "create_user",
+        "user_data"
+      ],
+      "live_variables": [
+        "reverse",
+        "create_user",
+        "Client"
+      ],
+      "def_use_chains": {
+        "user_data": [
+          43,
+          46
+        ],
+        "client": [
+          46,
+          48
+        ],
+        "self": [
+          47,
+          49
+        ],
+        "id": [
+          48
+        ],
+        "response": [
+          49
+        ]
+      },
+      "reaching_definitions": 5,
+      "file": "notejam/_tests_backup/pads_tests.py"
+    },
+    {
+      "function_name": "__init__",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "self",
+        "AdvancedTestSuiteRunner",
+        "args",
+        "super",
+        "kwargs"
+      ],
+      "live_variables": [
+        "AdvancedTestSuiteRunner",
+        "super",
+        "args",
+        "kwargs"
+      ],
+      "def_use_chains": {
+        "self": [
+          16
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/_tests_backup/notejam_tests.py"
+    },
+    {
+      "function_name": "build_suite",
+      "variables_defined": [
+        "suite",
+        "pkg",
+        "self",
+        "tests"
+      ],
+      "variables_used": [
+        "self",
+        "getattr",
+        "EXCLUDED_APPS",
+        "suite",
+        "AdvancedTestSuiteRunner",
+        "settings",
+        "pkg",
+        "tests",
+        "case",
+        "args",
+        "super",
+        "kwargs"
+      ],
+      "live_variables": [
+        "getattr",
+        "EXCLUDED_APPS",
+        "AdvancedTestSuiteRunner",
+        "settings",
+        "case",
+        "args",
+        "super",
+        "kwargs"
+      ],
+      "def_use_chains": {
+        "self": [
+          19
+        ],
+        "suite": [
+          23,
+          28
+        ],
+        "pkg": [
+          25
+        ],
+        "tests": [
+          26,
+          27
+        ]
+      },
+      "reaching_definitions": 4,
+      "file": "notejam/_tests_backup/notejam_tests.py"
+    },
+    {
+      "function_name": "create_user",
+      "variables_defined": [
+        "user_data",
+        "user"
+      ],
+      "variables_used": [
+        "user_data",
+        "user",
+        "User"
+      ],
+      "live_variables": [
+        "User"
+      ],
+      "def_use_chains": {
+        "user_data": [
+          33,
+          33,
+          34
+        ],
+        "user": [
+          34,
+          35,
+          36
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/notejam_tests.py"
+    },
+    {
+      "function_name": "_get_user_data",
+      "variables_defined": [
+        "user_data",
+        "self"
+      ],
+      "variables_used": [
+        "user_data",
+        "kwargs"
+      ],
+      "live_variables": [
+        "kwargs"
+      ],
+      "def_use_chains": {
+        "user_data": [
+          13,
+          14
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "test_signup_success",
+      "variables_defined": [
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "reverse",
+        "self",
+        "response",
+        "User"
+      ],
+      "live_variables": [
+        "reverse",
+        "User"
+      ],
+      "def_use_chains": {
+        "self": [
+          17,
+          18,
+          19,
+          20
+        ],
+        "response": [
+          19
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "test_signup_fail_required_fields",
+      "variables_defined": [
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "reverse",
+        "self",
+        "response"
+      ],
+      "live_variables": [
+        "reverse"
+      ],
+      "def_use_chains": {
+        "self": [
+          23,
+          24,
+          26
+        ],
+        "response": [
+          25
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "test_signup_fail_invalid_email",
+      "variables_defined": [
+        "invalid_data",
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "invalid_data",
+        "reverse",
+        "self",
+        "response"
+      ],
+      "live_variables": [
+        "reverse"
+      ],
+      "def_use_chains": {
+        "self": [
+          30,
+          31,
+          32
+        ],
+        "invalid_data": [
+          31
+        ],
+        "response": [
+          32
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "test_signup_fail_passwords_dont_match",
+      "variables_defined": [
+        "invalid_data",
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "invalid_data",
+        "reverse",
+        "self",
+        "response"
+      ],
+      "live_variables": [
+        "reverse"
+      ],
+      "def_use_chains": {
+        "self": [
+          35,
+          36,
+          37
+        ],
+        "invalid_data": [
+          36
+        ],
+        "response": [
+          37
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "test_signup_fail_email_exists",
+      "variables_defined": [
+        "data",
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "self",
+        "data",
+        "response",
+        "reverse",
+        "User"
+      ],
+      "live_variables": [
+        "reverse",
+        "User"
+      ],
+      "def_use_chains": {
+        "self": [
+          40,
+          47,
+          48
+        ],
+        "data": [
+          42,
+          43,
+          44,
+          47
+        ],
+        "response": [
+          48
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "_get_user_data",
+      "variables_defined": [
+        "user_data",
+        "self"
+      ],
+      "variables_used": [
+        "user_data",
+        "kwargs"
+      ],
+      "live_variables": [
+        "kwargs"
+      ],
+      "def_use_chains": {
+        "user_data": [
+          57,
+          58
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "test_signin_success",
+      "variables_defined": [
+        "data",
+        "response",
+        "user",
+        "self"
+      ],
+      "variables_used": [
+        "self",
+        "data",
+        "response",
+        "user",
+        "reverse",
+        "User"
+      ],
+      "live_variables": [
+        "reverse",
+        "User"
+      ],
+      "def_use_chains": {
+        "self": [
+          61,
+          66,
+          67
+        ],
+        "data": [
+          62,
+          62,
+          63,
+          66
+        ],
+        "user": [
+          63,
+          64
+        ],
+        "response": [
+          67
+        ]
+      },
+      "reaching_definitions": 4,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "test_signin_fail",
+      "variables_defined": [
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "reverse",
+        "self",
+        "response"
+      ],
+      "live_variables": [
+        "reverse"
+      ],
+      "def_use_chains": {
+        "self": [
+          70,
+          70,
+          71
+        ],
+        "response": [
+          71
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "test_signin_fail_required_fields",
+      "variables_defined": [
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "reverse",
+        "self",
+        "response"
+      ],
+      "live_variables": [
+        "reverse"
+      ],
+      "def_use_chains": {
+        "self": [
+          74,
+          75,
+          77
+        ],
+        "response": [
+          76
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "test_signin_fail_invalid_email",
+      "variables_defined": [
+        "invalid_data",
+        "self",
+        "response"
+      ],
+      "variables_used": [
+        "invalid_data",
+        "reverse",
+        "self",
+        "response"
+      ],
+      "live_variables": [
+        "reverse"
+      ],
+      "def_use_chains": {
+        "self": [
+          81,
+          82,
+          83
+        ],
+        "invalid_data": [
+          82
+        ],
+        "response": [
+          83
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "notejam/_tests_backup/users_tests.py"
+    },
+    {
+      "function_name": "get_initial",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "self"
+      ],
+      "live_variables": [],
+      "def_use_chains": {
+        "self": [
+          20
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "get_form",
+      "variables_defined": [
+        "form_class",
+        "self",
+        "form"
+      ],
+      "variables_used": [
+        "self",
+        "NoteCreateView",
+        "form",
+        "super",
+        "Pad"
+      ],
+      "live_variables": [
+        "NoteCreateView",
+        "Pad",
+        "super"
+      ],
+      "def_use_chains": {
+        "self": [
+          23,
+          23,
+          26
+        ],
+        "form": [
+          28
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "form_valid",
+      "variables_defined": [
+        "self",
+        "form"
+      ],
+      "variables_used": [
+        "self",
+        "messages",
+        "form",
+        "redirect"
+      ],
+      "live_variables": [
+        "messages",
+        "redirect"
+      ],
+      "def_use_chains": {
+        "form": [
+          31
+        ],
+        "self": [
+          32,
+          33,
+          34,
+          34,
+          35
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "get_success_url",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "self",
+        "reverse_lazy"
+      ],
+      "live_variables": [
+        "reverse_lazy"
+      ],
+      "def_use_chains": {
+        "self": [
+          38,
+          40
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "form_valid",
+      "variables_defined": [
+        "self",
+        "form"
+      ],
+      "variables_used": [
+        "self",
+        "messages",
+        "NoteUpdateView",
+        "form",
+        "super"
+      ],
+      "live_variables": [
+        "super",
+        "NoteUpdateView",
+        "messages"
+      ],
+      "def_use_chains": {
+        "self": [
+          54,
+          54,
+          55
+        ],
+        "form": [
+          55
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "get_queryset",
+      "variables_defined": [
+        "self",
+        "qs"
+      ],
+      "variables_used": [
+        "super",
+        "NoteUpdateView",
+        "self",
+        "qs"
+      ],
+      "live_variables": [
+        "super",
+        "NoteUpdateView"
+      ],
+      "def_use_chains": {
+        "self": [
+          58,
+          59
+        ],
+        "qs": [
+          59
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "get_form",
+      "variables_defined": [
+        "form_class",
+        "self",
+        "form"
+      ],
+      "variables_used": [
+        "self",
+        "NoteUpdateView",
+        "form",
+        "super",
+        "Pad"
+      ],
+      "live_variables": [
+        "super",
+        "NoteUpdateView",
+        "Pad"
+      ],
+      "def_use_chains": {
+        "self": [
+          62,
+          62,
+          65
+        ],
+        "form": [
+          67
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "get_success_url",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "self",
+        "reverse_lazy"
+      ],
+      "live_variables": [
+        "reverse_lazy"
+      ],
+      "def_use_chains": {
+        "self": [
+          70,
+          72
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "get_queryset",
+      "variables_defined": [
+        "self",
+        "qs"
+      ],
+      "variables_used": [
+        "super",
+        "self",
+        "qs",
+        "NoteDeleteView"
+      ],
+      "live_variables": [
+        "super",
+        "NoteDeleteView"
+      ],
+      "def_use_chains": {
+        "self": [
+          82,
+          83
+        ],
+        "qs": [
+          83
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "get_success_url",
+      "variables_defined": [
+        "self"
+      ],
+      "variables_used": [
+        "self",
+        "reverse_lazy"
+      ],
+      "live_variables": [
+        "reverse_lazy"
+      ],
+      "def_use_chains": {
+        "self": [
+          86,
+          88
+        ]
+      },
+      "reaching_definitions": 1,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "get_queryset",
+      "variables_defined": [
+        "self",
+        "qs"
+      ],
+      "variables_used": [
+        "super",
+        "NoteDetailView",
+        "qs",
+        "self"
+      ],
+      "live_variables": [
+        "super",
+        "NoteDetailView"
+      ],
+      "def_use_chains": {
+        "self": [
+          98,
+          99
+        ],
+        "qs": [
+          99
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "get_queryset",
+      "variables_defined": [
+        "order_by",
+        "self",
+        "qs"
+      ],
+      "variables_used": [
+        "self",
+        "qs",
+        "order_by",
+        "NoteListView",
+        "super"
+      ],
+      "live_variables": [
+        "super",
+        "NoteListView"
+      ],
+      "def_use_chains": {
+        "self": [
+          108,
+          109,
+          109,
+          110
+        ],
+        "qs": [
+          110
+        ],
+        "order_by": [
+          110
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "notejam/notes/views.py"
+    },
+    {
+      "function_name": "smart_date",
+      "variables_defined": [
+        "delta",
+        "updated_at"
+      ],
+      "variables_used": [
+        "date",
+        "delta",
+        "updated_at",
+        "abs"
+      ],
+      "live_variables": [
+        "date",
+        "abs"
+      ],
+      "def_use_chains": {
+        "updated_at": [
+          9,
+          11,
+          13,
+          17
+        ],
+        "delta": [
+          10,
+          12,
+          14,
+          15
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/notes/templatetags/date_tags.py"
+    },
+    {
+      "function_name": "forwards",
+      "variables_defined": [
+        "orm",
+        "self"
+      ],
+      "variables_used": [
+        "db",
+        "self",
+        "orm"
+      ],
+      "live_variables": [
+        "db"
+      ],
+      "def_use_chains": {
+        "self": [
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ],
+        "orm": [
+          14,
+          15
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/notes/migrations/0001_initial.py"
+    },
+    {
+      "function_name": "backwards",
+      "variables_defined": [
+        "orm",
+        "self"
+      ],
+      "variables_used": [
+        "db"
+      ],
+      "live_variables": [
+        "db"
+      ],
+      "def_use_chains": {},
+      "reaching_definitions": 2,
+      "file": "notejam/notes/migrations/0001_initial.py"
+    },
+    {
+      "function_name": "authenticate",
+      "variables_defined": [
+        "password",
+        "self",
+        "user",
+        "email"
+      ],
+      "variables_used": [
+        "password",
+        "user",
+        "User",
+        "email"
+      ],
+      "live_variables": [
+        "User"
+      ],
+      "def_use_chains": {
+        "email": [
+          8
+        ],
+        "user": [
+          9,
+          10
+        ],
+        "password": [
+          9
+        ]
+      },
+      "reaching_definitions": 4,
+      "file": "notejam/users/auth_backends.py"
+    },
+    {
+      "function_name": "get_user",
+      "variables_defined": [
+        "user_id",
+        "self"
+      ],
+      "variables_used": [
+        "user_id",
+        "User"
+      ],
+      "live_variables": [
+        "User"
+      ],
+      "def_use_chains": {
+        "user_id": [
+          16
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/users/auth_backends.py"
+    },
+    {
+      "function_name": "form_valid",
+      "variables_defined": [
+        "self",
+        "form"
+      ],
+      "variables_used": [
+        "self",
+        "messages",
+        "SignupView",
+        "form",
+        "super"
+      ],
+      "live_variables": [
+        "super",
+        "SignupView",
+        "messages"
+      ],
+      "def_use_chains": {
+        "self": [
+          26,
+          26,
+          27
+        ],
+        "form": [
+          27
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/users/views.py"
+    },
+    {
+      "function_name": "post",
+      "variables_defined": [
+        "self",
+        "request",
+        "user",
+        "form",
+        "form_class"
+      ],
+      "variables_used": [
+        "self",
+        "messages",
+        "reverse_lazy",
+        "request",
+        "user",
+        "redirect",
+        "form",
+        "form_class",
+        "authenticate",
+        "login",
+        "kwargs"
+      ],
+      "live_variables": [
+        "messages",
+        "reverse_lazy",
+        "redirect",
+        "kwargs",
+        "authenticate",
+        "login"
+      ],
+      "def_use_chains": {
+        "self": [
+          37,
+          38,
+          48,
+          50,
+          51,
+          54
+        ],
+        "form_class": [
+          38
+        ],
+        "form": [
+          39,
+          41,
+          42,
+          51,
+          54
+        ],
+        "user": [
+          44,
+          45
+        ],
+        "request": [
+          45,
+          48
+        ]
+      },
+      "reaching_definitions": 5,
+      "file": "notejam/users/views.py"
+    },
+    {
+      "function_name": "form_valid",
+      "variables_defined": [
+        "self",
+        "user",
+        "new_password",
+        "m",
+        "form"
+      ],
+      "variables_used": [
+        "send_mail",
+        "self",
+        "messages",
+        "ForgotPasswordView",
+        "user",
+        "new_password",
+        "m",
+        "hashlib",
+        "settings",
+        "str",
+        "form",
+        "datetime",
+        "super",
+        "User"
+      ],
+      "live_variables": [
+        "send_mail",
+        "messages",
+        "ForgotPasswordView",
+        "hashlib",
+        "settings",
+        "datetime",
+        "str",
+        "super",
+        "User"
+      ],
+      "def_use_chains": {
+        "m": [
+          65,
+          72
+        ],
+        "form": [
+          67,
+          74,
+          81,
+          85,
+          90
+        ],
+        "user": [
+          75,
+          76
+        ],
+        "new_password": [
+          75,
+          82
+        ],
+        "self": [
+          88,
+          88,
+          90
+        ]
+      },
+      "reaching_definitions": 5,
+      "file": "notejam/users/views.py"
+    },
+    {
+      "function_name": "get_form_kwargs",
+      "variables_defined": [
+        "self",
+        "kwargs"
+      ],
+      "variables_used": [
+        "super",
+        "AccountSettingsView",
+        "self",
+        "kwargs"
+      ],
+      "live_variables": [
+        "super",
+        "AccountSettingsView"
+      ],
+      "def_use_chains": {
+        "self": [
+          100,
+          101
+        ],
+        "kwargs": [
+          102
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/users/views.py"
+    },
+    {
+      "function_name": "form_valid",
+      "variables_defined": [
+        "self",
+        "form"
+      ],
+      "variables_used": [
+        "self",
+        "messages",
+        "AccountSettingsView",
+        "form",
+        "super"
+      ],
+      "live_variables": [
+        "AccountSettingsView",
+        "super",
+        "messages"
+      ],
+      "def_use_chains": {
+        "self": [
+          105,
+          105,
+          106
+        ],
+        "form": [
+          106
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/users/views.py"
+    },
+    {
+      "function_name": "save",
+      "variables_defined": [
+        "force_update",
+        "self",
+        "force_insert",
+        "commit",
+        "user"
+      ],
+      "variables_used": [
+        "self",
+        "commit",
+        "user",
+        "SignupForm",
+        "super"
+      ],
+      "live_variables": [
+        "super",
+        "SignupForm"
+      ],
+      "def_use_chains": {
+        "self": [
+          15,
+          19
+        ],
+        "user": [
+          17,
+          19,
+          21,
+          22
+        ],
+        "commit": [
+          20
+        ]
+      },
+      "reaching_definitions": 5,
+      "file": "notejam/users/forms.py"
+    },
+    {
+      "function_name": "clean_email",
+      "variables_defined": [
+        "self",
+        "email"
+      ],
+      "variables_used": [
+        "forms",
+        "self",
+        "User",
+        "email"
+      ],
+      "live_variables": [
+        "forms",
+        "User"
+      ],
+      "def_use_chains": {
+        "self": [
+          25
+        ],
+        "email": [
+          27,
+          32
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/users/forms.py"
+    },
+    {
+      "function_name": "clean_repeat_password",
+      "variables_defined": [
+        "password",
+        "repeat_password",
+        "self"
+      ],
+      "variables_used": [
+        "password",
+        "forms",
+        "repeat_password",
+        "self"
+      ],
+      "live_variables": [
+        "forms"
+      ],
+      "def_use_chains": {
+        "self": [
+          35,
+          36
+        ],
+        "password": [
+          38
+        ],
+        "repeat_password": [
+          38
+        ]
+      },
+      "reaching_definitions": 3,
+      "file": "notejam/users/forms.py"
+    },
+    {
+      "function_name": "clean_email",
+      "variables_defined": [
+        "self",
+        "email"
+      ],
+      "variables_used": [
+        "forms",
+        "self",
+        "User",
+        "email"
+      ],
+      "live_variables": [
+        "forms",
+        "User"
+      ],
+      "def_use_chains": {
+        "self": [
+          51
+        ],
+        "email": [
+          53,
+          54
+        ]
+      },
+      "reaching_definitions": 2,
+      "file": "notejam/users/forms.py"
+    }
+  ]
+}
